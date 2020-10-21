@@ -1,0 +1,325 @@
+nav
+{
+	background:transparent;
+	height: 50px;
+}
+
+#banner
+{
+	background:transparent;
+	height: 700px;
+}
+
+nav ul
+{
+	list-style: none;
+	margin: 0;
+	float: right;
+}
+
+nav ul li,nav.logo
+{
+	display: inline-block;
+	line-height: 50px;
+	margin-right: 20px;
+}
+
+nav ul li a
+{
+	line-height: 50px;
+	text-decoration: none;
+	display: inline-block;
+	height: inherit;
+	color: #fff;
+}
+
+nav .logo
+{
+	float: left;
+	padding: 10px;
+}
+
+#banner .inner
+{
+	max-width: 300px;
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+	top: 100px;
+}
+
+#banner .inner  h1
+{
+	margin:0;
+}
+
+button
+{
+	border: none;
+	background: #333;
+	color: #eee;
+	padding: 10px;
+}
+
+#banner .inner .more
+{
+	margin-top: 200px;
+}
+
+.sub-heading
+{
+	line-height: 30px;
+	margin: 10px;
+}
+
+hr
+{
+	width: 130px;
+}
+
+.logo
+{
+	font-size:20px;
+	color: purple;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+.logo a
+{
+	color: #fff;
+}
+
+.fir-section
+{
+	text-align: center;
+	background:transparent;
+	color: #fff;
+	padding: 100px 0;
+}
+
+.wrapper
+{
+	max-width: 1080px;
+	margin:0 auto;
+	background:transparent;
+}
+
+.sub-head
+{
+	font-size: 28px;
+}
+
+.fir-section .three-pic .pic 
+{
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	background: #0920d2;
+	margin: 20px;
+}
+
+.three-pic
+{
+	margin-top: 60px;
+}
+
+.second-section
+
+{
+	background: #868686;
+	font-size: 0;
+}
+
+.second-section .img-section
+{
+	width: 45%;
+}
+
+img
+{
+	width: 100%;
+}
+
+.second-section .text-section
+{
+	width: 45%;
+}
+
+.article-preview >div
+{
+	float: left;
+}
+
+.article-preview:after
+{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.text-section
+{
+	position: relative;
+	top: 88px;
+	left: 50px;
+}
+
+.text-section h2
+{
+	margin-bottom: 20px;
+}
+
+.text-section p
+{
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
+.third-section
+
+{
+	background:#4a4047;
+	font-size: 0;
+}
+
+.third-section .img-section
+{
+	width: 45%;
+	padding-right: 0;
+}
+
+.third-section .text-section
+{
+	width: 55%;
+}
+
+.for-section
+
+{
+	background:#355298;
+	font-size: 0;
+}
+
+.for-section .img-section
+{
+	width: 45%;
+}
+
+.for-section .text-section
+{
+	width: 45%;
+}
+
+.third-section .text-section p
+{
+	width: 90%;
+}
+
+.last-section
+{
+	background: #070550;
+	padding: 80px;
+	font-size: 0;
+}
+
+.last-section .wrapper
+{
+	text-align: center;
+}
+
+.card
+{
+	float: left;
+	width: 50%;
+	min-height: 300px;
+	padding: 50px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.card-group:after
+{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+h3
+{
+	font-size: 24px;
+}
+
+.card p
+{
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
+.card:first-child
+{
+	background: rgba(0,0,0,0.07);
+}
+
+.card:nth-child(2)
+{
+	background: rgba(0,0,0,0.10);
+}
+
+.card:nth-child(3)
+{
+    background: rgba(0,0,0,0.13);
+}
+
+.card:nth-child(4)
+{
+	background: rgba(0,0,0,0.16);
+}
+
+footer
+{
+	background:transparent;
+	color: #fff;
+	min-height: 200px;
+	text-align: center;
+}
+
+ul.share-group
+{
+    display: block;
+    width: 1080px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.share-group li
+{
+    display: inline-block;
+    padding: 10px;
+}
+
+.copy
+{
+	padding-bottom: 20px;
+}
+
+.main-wrapper
+{
+	background: #444 url(img/banner.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;background-position: center center;
+}
+
+a
+{
+	font-family: kaiti;
+	font-size: 25px;
+}
+
+.card-group h3,p
+{
+	color: #acec15;
+	font-family: kaiti;
+}
